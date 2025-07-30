@@ -42,7 +42,7 @@
     margin: 1rem 0;
 }
 
-.option-responsive {
+.checkbox {
     display: none;
 }
 
@@ -55,7 +55,6 @@
 .nav-option-portfolio {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -100,7 +99,7 @@
         position: absolute;
         width: 32px;
         height: 32px;
-        top: 2rem;
+        top: 1rem;
         right: 2rem;
         z-index: 2;
         opacity: 0;
@@ -140,6 +139,11 @@
         transform-origin: 0% 100%;
     }
 
+    .nav-option-portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .option-nav {
         padding: 0;
         margin: 2rem 0;
@@ -165,6 +169,7 @@
         transition: transform 0.5s ease-in-out;
     }
 
+    .nav-portfolio input[type="checkbox"]:checked~.compressed-line,
     .nav-portfolio input[type="checkbox"]:checked~.header-information {
         transform: translateX(0);
     }

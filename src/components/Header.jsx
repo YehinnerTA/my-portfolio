@@ -9,7 +9,7 @@ function Header() {
                     <span className='span-logo-portfolio'>
                         <img className='logo-portfolio' src={logoPerson} alt='Logo portafolio' />
                     </span>
-                    <input className='option-responsive' type='checkbox' />
+                    <input className='checkbox' type='checkbox' />
                     <div className='compressed-line'>
                         <span className='line line1'></span>
                         <span className='line line2'></span>
