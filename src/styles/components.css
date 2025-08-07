@@ -2,9 +2,11 @@
 :root {
     --bg-color: #000000;
     --font-color: #fff;
+    --font-gray: #888888;
     --font-color-secondary: #a3a3a3;
+    --first-bg-color: #1F2937;
     --secondary-bg-color: #0011ff;
-    --font: "Poppins";
+    --font: 'Arial', sans-serif;
 }
 
 * {
@@ -19,7 +21,7 @@
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .nav-portfolio {

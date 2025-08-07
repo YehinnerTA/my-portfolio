@@ -1,0 +1,222 @@
+/* ===================== Home ===================== */
+.container-home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+.left-content {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    order: 2;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+
+.right-content {
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 6rem;
+}
+
+.message-bubble {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    background-color: var(--secondary-bg-color);
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(34, 167, 255, 0.3);
+}
+
+.message-bubble::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    border: 12px solid;
+    border-color: var(--secondary-bg-color) transparent transparent transparent;
+}
+
+.message-txt {
+    padding: 12px 24px;
+    text-align: left;
+}
+
+.message-txt .text-home {
+    color: var(--font-color);
+    font-weight: 500;
+    margin: 0;
+    font-size: 14px;
+}
+
+.title-home {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--font-color);
+    line-height: 1.1;
+    margin: 0 0 1rem 0;
+    font-family: var(--font);
+}
+
+.text-home {
+    color: var(--font-gray);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.title-home,
+.text-home {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn-cv,
+.btn-port {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-cv {
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color);
+    border: 2px solid var(--secondary-bg-color);
+}
+
+.btn-cv:hover {
+    background-color: transparent;
+    color: var(--secondary-bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(34, 167, 255, 0.3);
+}
+
+.btn-port {
+    background-color: transparent;
+    border: 2px solid var(--font-color);
+    color: var(--font-color);
+}
+
+.btn-port:hover {
+    background-color: var(--font-color);
+    color: var(--bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+}
+
+.perfil-profesional {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(34, 167, 255, 0.4);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.left-content>* {
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.left-content>*:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.left-content>*:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.left-content>*:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.left-content>*:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+@media (min-width: 1024px) {
+    .home {
+        grid-template-rows: unset;
+        text-align: unset;
+    }
+
+    .left-content {
+        grid-column: span 7;
+        order: unset;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .right-content {
+        grid-column: span 5;
+        margin-top: 0;
+    }
+
+    .perfil-profesional {
+        width: 360px;
+        height: 360px;
+    }
+
+    .right-content::before {
+        width: 450px;
+        height: 450px;
+    }
+
+    .home-button {
+        align-items: start;
+        justify-content: start;
+    }
+}
