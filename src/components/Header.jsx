@@ -19,7 +19,7 @@ function Header() {
                         <ul className='nav-option-portfolio'>
                             <li className='option-nav'>Sobre mí</li>
                             <li className='option-nav'>Servicios</li>
-                            <li className='option-nav'>Portafolio</li>
+                            <li className='option-nav'>Proyecto</li>
                             <li className='option-nav'>Contacto</li>
                         </ul>
                         <div className='option-gmail'>

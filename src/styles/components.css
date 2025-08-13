@@ -202,14 +202,9 @@
 
 /* Footer */
 .footer-contact {
-    width: 100%;
-    min-height: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem 0;
-    text-align: center;
-    border-top: 2px solid #fff;
     background-color: var(--bg-color);
 }
 
