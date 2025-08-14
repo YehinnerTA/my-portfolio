@@ -4,7 +4,7 @@ import Foto from '../assets/Foto-Perfil.jpg';
 function Home() {
     return (
         <>
-            <div className='container-home'>
+            <div id='home' className='container-home'>
                 <section className="home" id="home">
                     <div className="left-content">
                         <div className="message-bubble">

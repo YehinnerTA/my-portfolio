@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header */
 .header-portfolio {
     display: flex;
@@ -62,6 +66,17 @@
     margin: 0;
 }
 
+.nav-option-portfolio a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: var(--font);
+    transition: color 0.3s ease;
+}
+
+.option-nav:hover a {
+    color: var(--font-color);
+}
+
 .option-nav {
     padding: 1rem 1.2rem;
     cursor: pointer;
@@ -106,6 +121,15 @@
         z-index: 2;
         opacity: 0;
         cursor: pointer;
+    }
+
+    .nav-option-portfolio a {
+        font-size: x-large;
+        color: var(--font-color);
+    }
+
+    .nav-option-portfolio a:hover {
+        color: var(--font-gray);
     }
 
     .compressed-line {
@@ -218,6 +242,7 @@
     color: var(--font-color-secondary);
     font-family: var(--font);
     font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .social-media {

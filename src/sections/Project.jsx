@@ -9,7 +9,7 @@ function Project() {
     };
 
     return (
-        <section id="portfolio" className="portfolio-section">
+        <section id="project" className="portfolio-section">
             <div className="container">
                 <h2 className="section-title">Mi Portafolio</h2>
                 <div className="projects-grid">

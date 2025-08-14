@@ -3,7 +3,7 @@ import '../styles/components.css'
 function Footer() {
     return (
         <>
-            <footer className='footer-contact'>
+            <footer id='footer' className='footer-contact'>
                 <div className='social-media'>
                     <h3 className='title-section'>Redes Sociales</h3>
                     <p className='information-section'>Desarrollador Full Stack Junior</p>
@@ -27,12 +27,6 @@ function Footer() {
                         <i className='fa-solid fa-envelope'></i>
                         <p className='information-section'>ytorresastorga@gmail.com</p>
                     </div>
-                    <a href="mailTo:ytorresastorga@gmail.com" className='btn-gmail btn-email'>
-                        <span className='icon-message'>
-                            <i className='fa-solid fa-message'></i>
-                        </span>
-                        Escríbeme al Gmail
-                    </a>
                     <a href="https://wa.me/51910317266" className='btn-gmail btn-email'>
                         <span className='icon-message'>
                             <i className='fa-solid fa-message'></i>
