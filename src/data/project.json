@@ -1,6 +1,6 @@
 [
     {
-        "image": "/src/assets/Foto-Perfil.jpg",
+        "image": "/project/Foto-Perfil.jpg",
         "title": "E-commerce Platform",
         "description": "Plataforma de comercio electrónico completa con sistema de pagos integrado y panel de administración.",
         "tech": [
@@ -13,7 +13,7 @@
         }
     },
     {
-        "image": "/src/assets/Foto-Perfil.jpg",
+        "image": "/project/Foto-Perfil.jpg",
         "title": "Dashboard Analytics",
         "description": "Dashboard interactivo para análisis de datos con visualizaciones en tiempo real y reportes automatizados.",
         "tech": [
@@ -27,7 +27,7 @@
         }
     },
     {
-        "image": "/src/assets/Foto-Perfil.jpg",
+        "image": "/project/Foto-Perfil.jpg",
         "title": "Sistema de Gestión Médica",
         "description": "Aplicación para gestión de citas médicas, historiales de pacientes y administración hospitalaria.",
         "tech": [
@@ -42,7 +42,7 @@
         }
     },
     {
-        "image": "/src/assets/Foto-Perfil.jpg",
+        "image": "/project/Foto-Perfil.jpg",
         "title": "Plataforma de Gaming",
         "description": "Aplicación web para torneos de gaming con sistema de rankings, chat en tiempo real y streaming integrado.",
         "tech": [
@@ -57,7 +57,7 @@
         }
     },
     {
-        "image": "/src/assets/Foto-Perfil.jpg",
+        "image": "/project/Foto-Perfil.jpg",
         "title": "Sistema Educativo Online",
         "description": "Plataforma de e-learning con cursos interactivos, evaluaciones automáticas y seguimiento de progreso.",
         "tech": [
