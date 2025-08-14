@@ -1,5 +1,6 @@
 import '../styles/container.css';
 import Foto from '../assets/Foto-Perfil.jpg';
+import projects from '../data/project.json';
 
 function About() {
     return (
@@ -22,15 +23,15 @@ function About() {
 
                     <div className="about-stats">
                         <div className="stat-card">
-                            <span className="stat-number">3+</span>
+                            <span className="stat-number">1+</span>
                             <div className="stat-label">Años de Experiencia</div>
                         </div>
                         <div className="stat-card">
-                            <span className="stat-number">50+</span>
+                            <span className="stat-number">{projects.length}+</span>
                             <div className="stat-label">Proyectos Completados</div>
                         </div>
                         <div className="stat-card">
-                            <span className="stat-number">25+</span>
+                            <span className="stat-number">10+</span>
                             <div className="stat-label">Clientes Satisfechos</div>
                         </div>
                         <div className="stat-card">

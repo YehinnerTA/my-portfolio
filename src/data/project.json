@@ -1,8 +1,8 @@
 [
     {
-        "image": "/project/Foto-Perfil.jpg",
-        "title": "E-commerce Platform",
-        "description": "Plataforma de comercio electrónico completa con sistema de pagos integrado y panel de administración.",
+        "image": "/project/Project.webp",
+        "title": "Prueba",
+        "description": "Descripcion Prueba.",
         "tech": [
             "react",
             "nodejs"
@@ -13,9 +13,9 @@
         }
     },
     {
-        "image": "/project/Foto-Perfil.jpg",
-        "title": "Dashboard Analytics",
-        "description": "Dashboard interactivo para análisis de datos con visualizaciones en tiempo real y reportes automatizados.",
+        "image": "/project/Project.webp",
+        "title": "Prueba",
+        "description": "Descripcion Prueba.",
         "tech": [
             "Vue.js",
             "python",
@@ -27,44 +27,14 @@
         }
     },
     {
-        "image": "/project/Foto-Perfil.jpg",
-        "title": "Sistema de Gestión Médica",
-        "description": "Aplicación para gestión de citas médicas, historiales de pacientes y administración hospitalaria.",
+        "image": "/project/Project.webp",
+        "title": "Prueba",
+        "description": "Descripcion Prueba.",
         "tech": [
             "angular",
             "Express.js",
             "MySQL",
             "JWT"
-        ],
-        "links": {
-            "demo": "#",
-            "code": "#"
-        }
-    },
-    {
-        "image": "/project/Foto-Perfil.jpg",
-        "title": "Plataforma de Gaming",
-        "description": "Aplicación web para torneos de gaming con sistema de rankings, chat en tiempo real y streaming integrado.",
-        "tech": [
-            "React",
-            "Socket.io",
-            "Redis",
-            "WebRTC"
-        ],
-        "links": {
-            "demo": "#",
-            "code": "#"
-        }
-    },
-    {
-        "image": "/project/Foto-Perfil.jpg",
-        "title": "Sistema Educativo Online",
-        "description": "Plataforma de e-learning con cursos interactivos, evaluaciones automáticas y seguimiento de progreso.",
-        "tech": [
-            "next.js",
-            "GraphQL",
-            "Prisma",
-            "AWS"
         ],
         "links": {
             "demo": "#",
