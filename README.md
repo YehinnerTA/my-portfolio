@@ -1,4 +1,4 @@
-# 🌟 Mi Portafolio – Yehinnerta
+# 🌟 Mi Portafolio – YehinnerTA
 
 ¡Bienvenido/a a mi portafolio personal!  
 Aquí podrás conocer más sobre mí, mis habilidades, proyectos y servicios.  
