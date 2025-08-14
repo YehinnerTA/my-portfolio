@@ -395,14 +395,11 @@
     box-shadow: 0 20px 40px rgba(0, 17, 255, 0.2);
 }
 
-.project-image {
-    height: 200px;
-    background: linear-gradient(45deg, var(--secondary-bg-color), #1d4ed8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    color: var(--font-color);
+.project-image img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .project-content {
@@ -411,7 +408,7 @@
 
 .project-title {
     font-size: 1.3rem;
-    color: var(--secondary-bg-color);
+    color: var(--font-color);
     margin-bottom: 0.5rem;
 }
 
@@ -429,7 +426,7 @@
 
 .tech-tag {
     background: rgba(0, 17, 255, 0.2);
-    color: var(--secondary-bg-color);
+    color: var(--font-gray);
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -438,17 +435,29 @@
 .project-links {
     display: flex;
     gap: 1rem;
+    margin-top: 1rem;
 }
 
 .project-link {
-    color: var(--secondary-bg-color);
+    padding: 0.6rem 1.2rem;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: var(--font);
+    font-weight: bold;
     text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.3s ease;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 114, 255, 0.3);
 }
 
 .project-link:hover {
-    color: #60a5fa;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 114, 255, 0.5);
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+}
+
+.project-link:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 114, 255, 0.4);
 }
 
 /* ===================== Services ===================== */
