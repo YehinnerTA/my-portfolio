@@ -4,7 +4,7 @@
 Aquí podrás conocer más sobre mí, mis habilidades, proyectos y servicios.  
 Este sitio está desarrollado con **React + Vite** y actualmente está desplegado en **Vercel**.
 
-🔗 **Ver en vivo:** [my-portfolio-inky-sigma-99.vercel.app](https://my-portfolio-inky-sigma-99.vercel.app/)
+🔗 **Ver en vivo:** [Mi-Portafolio-Dev](https://my-portfolio-inky-sigma-99.vercel.app/)
 
 ---
 
@@ -36,3 +36,4 @@ npm install
 
 # 4️⃣ Iniciar el servidor de desarrollo
 npm run dev
+```
