@@ -1,5 +1,5 @@
 import '../styles/container.css';
-import Foto from '../assets/Foto-Perfil.jpg';
+import Foto from '../assets/Foto2.png';
 import projects from '../data/project.json';
 
 function About() {

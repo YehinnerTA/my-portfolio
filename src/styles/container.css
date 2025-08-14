@@ -240,23 +240,22 @@
 }
 
 .about-image-container {
-    width: 350px;
-    height: 350px;
+    display: inline-block;
     border-radius: 20px;
     background: linear-gradient(45deg, var(--secondary-bg-color), #1d4ed8);
     padding: 4px;
     position: relative;
     overflow: hidden;
+    width: fit-content;
+    height: fit-content;
 }
 
 .about-image-inner {
-    width: 100%;
-    height: 100%;
+    display: block;
+    width: 250px;
+    height: auto;
     border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    object-fit: cover;
 }
 
 .about-stats {

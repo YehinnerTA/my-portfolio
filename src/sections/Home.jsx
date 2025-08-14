@@ -1,5 +1,5 @@
 import '../styles/container.css';
-import Foto from '../assets/Foto-Perfil.jpg';
+import Foto from '../assets/Foto-Perfil.png';
 
 function Home() {
     return (
